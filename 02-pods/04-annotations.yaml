@@ -2,10 +2,10 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: hi
-annotations:
+  annotations:
   environment: "production"
   app-version: "1.0"
-sepc:
+spec:
   containers:
   - name: nginx
     image: nginx
