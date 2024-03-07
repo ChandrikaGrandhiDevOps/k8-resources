@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: labels
+  namespace: roboshop
+  labels:
+    course: DevOps
+    Trainer: Siva
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    containerPorts:
+    - ports: 80
+    
