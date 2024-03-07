@@ -8,7 +8,7 @@ metadata:
     Trainer: "Siva"
 spec:
   containers:
-  - name: nginx
+  - name: nginx1
     image: nginx
     ports:
     - containerPort: 80
