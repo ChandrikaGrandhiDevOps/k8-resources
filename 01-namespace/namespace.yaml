@@ -1,4 +1,4 @@
 apiVersion: v1
-kind: Namespcae
+kind: Namespace
 metadata:
   name : updating roboshop
