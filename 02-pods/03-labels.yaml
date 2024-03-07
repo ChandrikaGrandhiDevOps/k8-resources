@@ -5,11 +5,11 @@ metadata:
   namespace: roboshop
   labels:
     course: DevOps
-    Trainer: Siva
+    Trainer: "Siva"
 spec:
   containers:
   - name: nginx
     image: nginx
-    containerPorts:
-    - ports: 80
+    ports:
+    - containerPort: 80
     
